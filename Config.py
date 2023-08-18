@@ -7,7 +7,7 @@ class Config(object):
     STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOIEBu2LwIkc12qoJ1t_xXyefEf00WL_3Takz5OUfEFX9Pfd3zou0XKLd_gvbi3aYd7UCJdSSaBNlrV2BvHOm_aN5OnlBKbokxKMhMrs5lCNciJPeKzss9uznQFaWqwmyQa2Cx6qavNOY1iZ_dMptD1oQHT98srZv3b29nOsug-VXLYU5f2Ww7zUMkFRN4NRK_EPErXfkS0cIUqSZIzkYx8md-4sgjm3HPSzBgeEiL_iFs8LrFgLrQwkHvyTF_YdtJadZLwg-i458BBqZmHRaIQNXdDA8x0o4NDcqN2Eo-HlKeMtbNZDoCpNQqwf1Ip4e6LaZZcg8SSQ9AEYwcDDRfKa4TcM=")
     MANAGEMENT_MODE = os.environ.get("MANAGEMENT_MODE", None)
     HEROKU_MODE = os.environ.get("HEROKU_MODE", None)
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "rockylove_bot")
     SUPPORT = os.environ.get("SUPPORT", "TheSupportChat") # Your Support
     CHANNEL = os.environ.get("CHANNEL", "TheUpdatesChannel") # Your Channel
     START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/35a7b5d9f1f2605c9c0d3.png")
